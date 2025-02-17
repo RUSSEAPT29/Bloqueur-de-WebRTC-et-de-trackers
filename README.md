@@ -1,49 +1,45 @@
-🔒 Bouclier de protection des données - WebRTC et Tracker Blo
-🛡️ Description
-Privacy Shield est un script Tampermonkey qui pbloquant WebRTC, les trackers publicitaires, les fuites DNS et les pixels espions . Cle bug d'affichagesur YouT
-
 🚀 Fonctionnalités
-✅ Bloque WebRTC → Empêcher laadresse IP réelle .
-✅ **BlocBloquer les scripts de tracking → SGoogle, Facebook, Twitter, Amazon, Bing,
-etc. ✅Désactiver les référents HTTP → Cach
-✅ **Fixe lCorrection du bug d'affichage YouTube → P
-✅ **DésDésactiver les pixels espions invisibles → Bloqubeacons et iframe de suivi .
-✅ **Optimisé poOptimisé pour la performance→ **AucAucun inhibiteur du navigateur .
+✅ Bloque WebRTC → Empêcher la fuite de ton adresse IP réelle .
+✅ Bloquer les scripts de tracking → Supprime les trackers de Google, Facebook, Twitter, Amazon, Bing, etc.
+✅ Désactivez les référents HTTP → Cache l'origine de vos requêtes web pour éviter le suivi.
+✅ Correction du bug d'affichage YouTube → Plus de carré noir ou d'espace vide après le blocage des pubs.
+✅ Désactivez les pixels espions invisibles → Bloquez les balises et iframe de tracking .
+✅ Optimisé pour la performance → Aucun ralentissement du navigateur .
 
 📥 Installation
 1️⃣ Installateur Tampermonkey
 
-1 https://chrome
-2 https://ajouter
-3 https://microsoftedge.m
-[B
+Chrome
+Firefox
+Bord
+[Brave/Opera] → Compatible avec l'extension Chrome
 2️⃣ Ajouter le script Privacy Shield
 
-Ouvre Tampermonkey → *Créer un nouveau script
-Copie-colle leprivacy-shield.user.js)
-Sauvegarde et activele script
+Ouvre Tampermonkey → Créer un nouveau script
+Copier-colle le code du script (voir privacy-shield.user.js)
+Sauvegarde et activation du script
 🔧 Configuration Avancée (Facultatif)
-Si tu veux désactiver certaines protections ,
+Si vous voulez désactiver certaines protections , modifiez ces parties du script :
 
-Désactiver le blocage WebRTC→ CommRTCPeerConnection
-Autoriser un tracker spécifique → SutrackerDomains
-Changer la configuration anti-empreintes digitales → Mnavigator.plugins, `naviguenavigator.languages,
-Dépendances
-Ce
+Désactiver le blocage WebRTC → Commenter la sectionRTCPeerConnection
+Autoriser un tracker spécifique → Supprimer son domaine de la listetrackerDomains
+Changer la configuration anti-empreinte → Modifier navigator.plugins, navigator.languages, etc.
+🛠️ Dépendances
+Ce script utilise :
 
 Tampermonkey pour exécuter les modifications.
 GM_addStyle (si disponible) pour ajouter des règles CSS sans casser l'affichage.
 📜 Source du code
-Le script est disponible dans le fichierprivacy-shield.user.js.
+Le script est disponible dans le fichier privacy-shield.user.js.
 
 📝 Journal des modifications
 🆕 v3.0 (correction de bug)
 
-🔧 Correction du bug d'affichage YouTube (
-🚀 Optimisation du blocage WebRTC(bis
+🔧 Correction du bug d'affichage YouTube (plus de carré noir).
+🚀 Optimisation du blocage WebRTC (encore plus efficace).
 🛡️ Amélioration du blocage des pixels de tracking invisibles .
 ⚡ Meilleure compatibilité avec les navigateurs (Chrome, Firefox, Edge, Brave) .
 📢 Soutien et contributions
-Si vous trouvez un bug ou souhaitez améliorer le script, ouvre un problème ou fdemande d'extractionsurhttps://g.
+Si vous trouvez un bug ou souhaitez améliorer le script, ouvre un problème ou fais une pull request sur GitHub .
 
 🚀 Protège ta vie privée et navigation anonymement ! 🔥
