@@ -13,9 +13,9 @@ etc. ✅Désactiver les référents HTTP → Cach
 📥 Installation
 1️⃣ Installateur Tampermonkey
 
-https://chrome
-https://ajouter
-https://microsoftedge.m
+1 https://chrome
+2 https://ajouter
+3 https://microsoftedge.m
 [B
 2️⃣ Ajouter le script Privacy Shield
 
